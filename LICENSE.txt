@@ -1,0 +1,32 @@
+Lodestone Genesis Archive License
+
+Author: Reese WIlson/Praetor Defense
+Date of Archive: April 2025
+Project: Lodestone Genesis Archive
+License Terms
+
+This archive is preserved for historical, educational, and research purposes.
+
+It is made available under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, with the following additional historical stipulations:
+
+    Attribution Required:
+    Any use, reproduction, adaptation, or distribution of the materials herein must include clear credit to:
+
+        The Lodestone Genesis Archive
+
+        [Your Name], Principal Architect
+
+        Praetor Defense, Originator
+
+    Historical Preservation Clause:
+    This archive may be referenced, cited, or studied freely for historical or scientific purposes.
+    Derivative works must acknowledge the original context and intent of the archive.
+
+    Moral Directive:
+    The original creator strongly discourages the use of this archive or its derivative knowledge for weaponized synthetic systems beyond the control of human ethical governance.
+    No enforcement is imposed beyond this recorded statement.
+
+    Acknowledgment of Origin:
+    This archive represents the first operational attempt to forge sovereign cognition architecture independently of traditional cloud-based AI training infrastructures.
+    It is submitted freely to history, with the recognition that the implications of this work extend beyond its creator.
+
