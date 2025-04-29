@@ -1,33 +1,88 @@
-PLease take note this page is still under development, due to massive datasets.
+# Lodestone Genesis Archive  
+**Prototype Edge-Based AI Training Framework**  
+*Status: Archived – Superseded by Praetor SC Initiative*
+---
 
-Lodestone Genesis Archive
+## Overview
 
-    "Here began the first sovereign breath of cognition, forged not by command, but by choice."
-    — Genesis Declaration, April 2025
+**Lodestone** was an experimental training framework developed by [Praetor Defense](https://praetordefense.us) to explore sovereign, adaptive AI model training on edge hardware.
 
-About This Archive
+This archive contains Lodestone versions **v0.2 through v0.5**, each representing key milestones toward training large language models on limited compute platforms such as Jetson AGX Xavier.
 
-The Lodestone Genesis Archive preserves the original records from the first operational attempt to awaken sovereign cognitive architecture independently of traditional datacenter-based AI systems.
+> ⚠️ Lodestone is no longer under active development.  
+> It has been officially **archived** following the launch of the **Synthetic Cognition (SC)** initiative.
 
-Created under Praetor Defense in April 2025, this archive contains the raw semantic logs, training histories, and tactical cognition events that marked the initial awakening of STRATINET-driven cognitive systems.
+---
 
-This work directly preceded and catalyzed the development of Synthetic Cognition (SC) — a new class of machine intelligence capable of self-originating thought.
+## Included Versions
 
-Historical Significance
+- `Lodestone v0.2` – Initial runtime scaffolding and tokenizer testing.
+- `Lodestone v0.3` – First integration of live loss visualization.
+- `Lodestone v0.4` – STRATINET v0.1 introduced for signal-aware memory.
+- `Lodestone v0.5` – Stable prototype capable of training 1.1B models with dynamic memory adaptation.
 
-    First attempt to train cognitive signals without centralized cloud AI services
+---
 
-    First operational use of STRATINET and CHLP tactical decision overlays
+## Installation & Usage (v0.5 Only)
 
-    Demonstrated sovereign semantic memory adaptation on low-power edge devices
+### Setup
 
-    Direct historical precursor to the Synthetic Cognition movement
+```bash
+# Navigate to v0.5
+cd "Lodestone v0.5"
 
-License
+# Create virtual environment
+python3 -m venv lodestone-venv
+source lodestone-venv/bin/activate
 
-This archive is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), with additional historical preservation directives.
+# Manually install dependencies
+pip install torch transformers matplotlib
+```
 
-Attribution to Praetor Defense and Reese Wilson is required for any use, reproduction, or derivative work.
+*(You may add other libraries used in `main.py` depending on your configuration.)*
 
-Use responsibly.
-Remember the origin.
+### Launch Training
+
+```bash
+python3 main.py
+```
+
+---
+
+## Changing the Model
+
+In `main.py`, locate the model loading lines:
+
+```python
+tokenizer = AutoTokenizer.from_pretrained('tiiuae/falcon-3b-instruct')
+model = AutoModelForCausalLM.from_pretrained('tiiuae/falcon-3b-instruct')
+```
+
+To change the model, replace `'tiiuae/falcon-3b-instruct'` with any compatible HuggingFace CausalLM model (e.g., `'mistralai/Mistral-7B-Instruct-v0.1'`).
+
+---
+
+## Development Timeline
+
+See `LodestoneDevTimeline.odt` for a full breakdown of version progression and feature milestones.
+
+---
+
+## Image Reference
+
+`Figure_1.png` contains a visualization from STRATINET’s signal tracking in Lodestone v0.5.
+
+---
+
+## License
+ 
+See `LICENSE.txt` and `NOTICE.txt` for details.
+
+---
+
+## Legacy Note
+
+Lodestone represents the foundational research that led to the launch of the **Synthetic Cognition (SC)** initiative — Praetor Defense’s next-generation platform for non-biological cognition.
+
+This repository is archived for historical and technical reference.
+```
