@@ -1,3 +1,5 @@
+PLease take note this page is still under development, due to massive datasets.
+
 Lodestone Genesis Archive
 
     "Here began the first sovereign breath of cognition, forged not by command, but by choice."
